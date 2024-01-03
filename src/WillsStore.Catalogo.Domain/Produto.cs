@@ -56,7 +56,11 @@ namespace WillsStore.Catalogo.Domain
 
         public void Validar()
         {
-
+            Validacoes.ValidarSeVazio(Nome, "O campo nome do produto não pode estar vazio");
+            Validacoes.ValidarSeVazio(Descricao, "O campo descrição não pode estar vazio");
+            Validacoes.ValidarSeDiferente(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode estar vazio");
+            Validacoes.ValidarSeMenorIgual(Valor, 0, "O valor do produto não pode ser menor igual a 0");
+            Validacoes.ValidarSeVazio(Imagem, "O campo imagem não pode estar vazio");
         }
     }
 
