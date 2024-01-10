@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\WillsStore.Catalogo.Domain\WillsStore.Catalogo.Domain.csproj" />
+    <ProjectReference Include="..\..\src\WillsStore.Core\WillsStore.Core.csproj" />
+  </ItemGroup>
+
 </Project>

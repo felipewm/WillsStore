@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WillsStore.Catalogo.Domain"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WillsStore.Core", "src\WillsStore.Core\WillsStore.Core.csproj", "{64C64DBA-85A3-4F6B-9607-482B759ECE07}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5AAE369C-1B39-4C09-9B40-4427750EFD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WillsStore.Catalogo.Domain.Tests", "tests\WillsStore.Catalogo.Domain.Tests\WillsStore.Catalogo.Domain.Tests.csproj", "{E3864CD1-7565-4EB5-AEE6-F218E92C04DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{64C64DBA-85A3-4F6B-9607-482B759ECE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64C64DBA-85A3-4F6B-9607-482B759ECE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64C64DBA-85A3-4F6B-9607-482B759ECE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3864CD1-7565-4EB5-AEE6-F218E92C04DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3864CD1-7565-4EB5-AEE6-F218E92C04DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3864CD1-7565-4EB5-AEE6-F218E92C04DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3864CD1-7565-4EB5-AEE6-F218E92C04DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,8 @@ Global
 		{C1995D9B-8D6F-44F0-951C-283ABC7EEE26} = {EB926C20-863F-460A-AF5B-DD5BC78B0FCB}
 		{34029ED0-99D9-4A01-A2B2-2443F8103124} = {1CC0935E-0144-431B-8FE2-A53E032E08D0}
 		{64C64DBA-85A3-4F6B-9607-482B759ECE07} = {E53DCE65-E373-4262-BF26-23E51AD70DE4}
+		{5AAE369C-1B39-4C09-9B40-4427750EFD1F} = {1CC0935E-0144-431B-8FE2-A53E032E08D0}
+		{E3864CD1-7565-4EB5-AEE6-F218E92C04DB} = {5AAE369C-1B39-4C09-9B40-4427750EFD1F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B43708EC-74DC-441A-8BB3-C84CFC3B9FA5}
