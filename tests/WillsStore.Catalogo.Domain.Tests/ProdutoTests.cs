@@ -7,7 +7,7 @@ namespace WillsStore.Catalogo.Domain.Tests
     public class ProdutoTests
     {
         [Fact]
-        public void Test1()
+        public void Produto_Validar_ValidacoesDevemRetornarExceptions()
         {
             // Arrange & Act & Assert
 
