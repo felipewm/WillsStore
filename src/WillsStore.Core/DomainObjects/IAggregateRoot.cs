@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WillsStore.Core.DomainObjects
 {
-    public interface IAgregateRoot
+    public interface IAggregateRoot
     {
     }
 }
