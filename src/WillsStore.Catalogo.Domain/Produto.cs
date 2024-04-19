@@ -23,6 +23,10 @@ namespace WillsStore.Catalogo.Domain
 
         public Categoria Categoria { get; private set; }
 
+        protected Produto()
+        {
+            
+        }
         public Produto(string nome, string descricao, bool ativo, decimal valor, Guid categoriaId, DateTime dataCadastro, string imagem, Dimensoes dimensoes)
         {
             CategoriaId = categoriaId;

@@ -27,7 +27,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5AAE369C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WillsStore.Catalogo.Domain.Tests", "tests\WillsStore.Catalogo.Domain.Tests\WillsStore.Catalogo.Domain.Tests.csproj", "{E3864CD1-7565-4EB5-AEE6-F218E92C04DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WillsStore.Catalogo.Data", "src\WillsStore.Catalogo.Data\WillsStore.Catalogo.Data.csproj", "{1E62D3B7-93EA-4D85-8003-31561CCA67F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WillsStore.Catalogo.Data", "src\WillsStore.Catalogo.Data\WillsStore.Catalogo.Data.csproj", "{1E62D3B7-93EA-4D85-8003-31561CCA67F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WillsStore.Catalogo.Application", "src\WillsStore.Catalogo.Application\WillsStore.Catalogo.Application.csproj", "{4FC0078E-A682-44D1-A6C8-70C7F3D261F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WillsStore.WebApp.MVC", "src\WillsStore.WebApp.MVC\WillsStore.WebApp.MVC.csproj", "{36696463-A193-4500-93D4-7542B103762D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{1E62D3B7-93EA-4D85-8003-31561CCA67F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E62D3B7-93EA-4D85-8003-31561CCA67F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E62D3B7-93EA-4D85-8003-31561CCA67F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC0078E-A682-44D1-A6C8-70C7F3D261F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC0078E-A682-44D1-A6C8-70C7F3D261F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC0078E-A682-44D1-A6C8-70C7F3D261F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC0078E-A682-44D1-A6C8-70C7F3D261F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36696463-A193-4500-93D4-7542B103762D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36696463-A193-4500-93D4-7542B103762D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36696463-A193-4500-93D4-7542B103762D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36696463-A193-4500-93D4-7542B103762D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +79,8 @@ Global
 		{5AAE369C-1B39-4C09-9B40-4427750EFD1F} = {1CC0935E-0144-431B-8FE2-A53E032E08D0}
 		{E3864CD1-7565-4EB5-AEE6-F218E92C04DB} = {5AAE369C-1B39-4C09-9B40-4427750EFD1F}
 		{1E62D3B7-93EA-4D85-8003-31561CCA67F3} = {1CC0935E-0144-431B-8FE2-A53E032E08D0}
+		{4FC0078E-A682-44D1-A6C8-70C7F3D261F5} = {1CC0935E-0144-431B-8FE2-A53E032E08D0}
+		{36696463-A193-4500-93D4-7542B103762D} = {48ECB672-3669-438B-9A3F-057FCCE0EA76}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B43708EC-74DC-441A-8BB3-C84CFC3B9FA5}

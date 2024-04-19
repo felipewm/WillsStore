@@ -20,8 +20,11 @@ namespace WillsStore.Catalogo.Data
                 e => e.GetProperties()
                 .Where(p => p.ClrType == typeof(string))))
                 property.SetColumnType("varchar(100)");
-
+            
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(CatalogoContext).Assembly);
+
+            modelBuilder.Entity<Produto>().Property(p => p.Valor)
+                .HasColumnType("DECIMAL(15,2)");
         }
         public async Task<bool> Commit()
         {
